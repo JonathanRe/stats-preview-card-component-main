@@ -6,6 +6,11 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
   
   <title>Frontend Mentor | Stats preview card component</title>
@@ -18,8 +23,11 @@
 </head>
 <body>
   <main>
-    <picture></picture>
-    <div class="card">
+    <picture>
+      <img src="./images/image-header-mobile.jpg" alt="A group of women working together in an office.">
+    </picture>
+
+    <div class="card grid-flow">
       <h1>Get <span>insights</span> that help your business grow.</h1>
 
       <p>
@@ -27,15 +35,15 @@
         experience, and overall efficiency.
       </p>
 
-      <div class="stats">
+      <div class="stats grid-flow">
         <p>
-          <span>10k+</span> companies
+          <span class="stats__numbers">10k+</span> <span class="stats__text">companies</span>
         </p>
         <p>
-          <span>314</span> templates
+          <span class="stats__numbers">314</span> <span class="stats__text">templates</span>
         </p>
         <p>
-          <span>12m+</span> queries
+          <span class="stats__numbers">12m+</span> <span class="stats__text">queries</span>
         </p>
       </div>
     </div>

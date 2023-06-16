@@ -77,11 +77,13 @@ main {
     border-radius: .5rem;
     overflow: hidden;
     display: grid;
+    max-width: 1110px;
 }
 
 @media (min-width: 700px) {
     main {
         grid-template-columns: 1fr 1fr;
+        text-align: left;
     }
 }
 
@@ -110,6 +112,12 @@ picture::before {
     padding: 2.5rem 1rem;
 }
 
+@media (min-width: 700px) {
+    .card {
+        padding: 4rem;
+    }
+}
+
 h1 {
     font-size: 1.8rem;
     color: var(--clr-neutral-100);
@@ -117,8 +125,21 @@ h1 {
     line-height: 1.2;
 }
 
+@media (min-width: 700px) {
+    h1 {
+        font-size: 2.25rem;
+    }
+}
+
 h1 > span {
     color: var(--clr-accent-400);
+}
+
+@media (min-width: 700px) {
+    .card > p {
+        margin-top: 1rem;
+        line-height: 1.7rem;
+    }
 }
 
 .stats {
@@ -127,6 +148,7 @@ h1 > span {
 
 @media (min-width: 500px) {
     .stats {
+        margin-top: 2.75rem;
         grid-template-columns: 1fr 1fr 1fr;
     }
 }

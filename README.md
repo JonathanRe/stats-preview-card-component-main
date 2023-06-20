@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/two-column-layout-with-css-grid-rBK0zH8dc2](https://www.frontendmentor.io/solutions/two-column-layout-with-css-grid-rBK0zH8dc2)
 - Live Site URL: [https://unrivaled-rabanadas-85f0cb.netlify.app/](https://unrivaled-rabanadas-85f0cb.netlify.app/)
 
 ## My process

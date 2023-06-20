@@ -77,11 +77,12 @@ main {
     border-radius: .5rem;
     overflow: hidden;
     display: grid;
-    max-width: 1110px;
+    max-width: 455px;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 1000px) {
     main {
+        max-width: 1110px;
         grid-template-columns: 1fr 1fr;
         text-align: left;
     }
@@ -91,7 +92,7 @@ picture {
     position: relative;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 1000px) {
     picture {
         order: 1;
     }
@@ -112,7 +113,7 @@ picture::before {
     padding: 2.5rem 1rem;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 1000px) {
     .card {
         padding: 4rem;
     }
@@ -125,7 +126,7 @@ h1 {
     line-height: 1.2;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 1000px) {
     h1 {
         font-size: 2.25rem;
     }
@@ -135,7 +136,7 @@ h1 > span {
     color: var(--clr-accent-400);
 }
 
-@media (min-width: 700px) {
+@media (min-width: 1000px) {
     .card > p {
         margin-top: 1rem;
         line-height: 1.7rem;
